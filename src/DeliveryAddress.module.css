@@ -1,0 +1,79 @@
+.DefaultAddress {
+  width: max-content;
+  padding: 1px 8px;
+  background: var(--theme-color-pebble);
+  color: var(--theme-color-inky-blue);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-weight: bold;
+  vertical-align: bottom;
+  margin: 4px 0px 8px -2px !important;
+}
+
+.DefaultBadge {
+  font-family: 'Gotham 5r';
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  margin-top: 0;
+  margin-bottom: 0;
+  word-spacing: 1px;
+}
+
+.Inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  vertical-align: baseline;
+}
+.deliveryButton {
+  background: #f0f7fa;
+  border: 1px solid #0078b3;
+  border-radius: 26px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 2px 16px;
+  gap: 6px;
+}
+
+.addressWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 18px 20px;
+  width: 290px;
+  min-height: 267px;
+  margin: 0 0 0 13px;
+  border-radius: 8px;
+}
+.blueBoldBorder {
+  border: 2px solid #003b71;
+}
+.greayBorder {
+  border: 1px solid #878f9b;
+}
+.greyDashedBorder {
+  border: 1px dashed #878f9b;
+}
+.name {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #0d1c3d;
+}
+.address {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 325;
+  font-size: 13px;
+  line-height: 20px;
+  color: #0d1c3d;
+}
